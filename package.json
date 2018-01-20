@@ -1,0 +1,33 @@
+{
+  "name": "dform-model",
+  "version": "0.0.1",
+  "description": "Types model for dform objects",
+  "author": "Karolis Jocevičius",
+  "license": "GPL-3.0",
+  "main": "index.ts",
+  "keywords": [
+    "forms",
+    "dynamic",
+    "dynaform",
+    "angular",
+    "ng"
+  ],
+  "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "test": "jasmine-ts",
+    "build": "tsc",
+    "start": "npm run build && node dist",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint && npm run test"
+  },
+  "dependencies": {
+    "@types/node": "^9.3.0",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.4",
+    "jasmine": "^2.9.0",
+    "jasmine-ts": "^0.2.1",
+    "tslint": "^5.9.1"
+  }
+}
