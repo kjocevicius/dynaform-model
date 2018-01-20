@@ -1,10 +1,11 @@
 {
   "name": "dform-model",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Types model for dform objects",
   "author": "Karolis Jocevičius",
   "license": "GPL-3.0",
-  "main": "index.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "forms",
     "dynamic",
