@@ -4,5 +4,5 @@
 
 This is a nodeJS lib defining DForm objects model for reusability.
 
-[![NPM](https://nodei.co/npm/dform-model.png)](https://nodei.co/npm/dform-model/)
+[![NPM](https://nodei.co/npm/dynaform-model.png)](https://www.npmjs.com/package/dform-model)
 
