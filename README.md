@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/teraxas/dform-model.svg?branch=master)](https://travis-ci.org/teraxas/dform-model)
+[![Build Status](https://travis-ci.org/teraxas/dynaform-model.svg?branch=master)](https://travis-ci.org/teraxas/dynaform-model)
 
 # dynaform dynamic forms model
 
