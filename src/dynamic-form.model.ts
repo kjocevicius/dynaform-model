@@ -50,10 +50,10 @@ export interface DFormField extends DFormControl {
   value: any;
 }
 
-export interface DFormCurrency extends DFormField {
+export interface DFormCurrencyField extends DFormField {
   prefix: string;
   suffix: string;
-  precission?: number;
+  precision?: number;
   decimalSepparator?: string;
   thousandsSepparator?: string;
 }
