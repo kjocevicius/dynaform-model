@@ -50,6 +50,14 @@ export interface DFormField extends DFormControl {
   value: any;
 }
 
+export interface DFormCurrency extends DFormField {
+  prefix: string;
+  suffix: string;
+  precission?: number;
+  decimalSepparator?: string;
+  thousandsSepparator?: string;
+}
+
 export interface DFormFieldOptions extends DFormField, HasClassifier {
   classifier: Option[];
 }
